@@ -1,0 +1,58 @@
+{
+  "registerAccount": [
+    {
+      "id": "ebeed038-e94e-4cb1-98c5-a396544cc640",
+      "fullName": "Uday Kumar",
+      "dob": "2021-10-09",
+      "email": "uday@gmail.com",
+      "password": "Uday1234",
+      "cpassword": "Uday1234",
+      "currentServices": [
+        {
+          "mIcon": "file/bank.svg",
+          "dIcon": "file/bank2.png",
+          "rating": "",
+          "header": "Current Account"
+        },
+        {
+          "mIcon": "file/payroll.svg",
+          "dIcon": "file/payments2.png",
+          "rating": "",
+          "header": "Payroll"
+        },
+        {
+          "mIcon": "file/payment.svg",
+          "dIcon": "file/payroll2.png",
+          "rating": "",
+          "header": "Payments"
+        }
+      ],
+      "availableServices": [
+        {
+          "mIcon": "file/wallet.svg",
+          "dIcon": "file/wallet2.png",
+          "rating": "",
+          "header": "Wallet"
+        },
+        {
+          "mIcon": "file/time.svg",
+          "dIcon": "file/investment2.png",
+          "rating": "",
+          "header": "Investments"
+        },
+        {
+          "mIcon": "file/tax.svg",
+          "dIcon": "file/tax2.png",
+          "rating": "",
+          "header": "Tax Payment"
+        },
+        {
+          "mIcon": "file/money-bag.svg",
+          "dIcon": "file/loan2.png",
+          "rating": "",
+          "header": "Loan"
+        }
+      ]
+    }
+  ]
+}
