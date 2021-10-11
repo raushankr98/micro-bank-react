@@ -18,10 +18,18 @@
     display: none;
 }
 
-.title, .rating {
+.title {
     color: #333333;
     font-size: 18px;
     margin-top: 10px;
+}
+
+#rating {
+    /* display: flex; */
+    display: none;
+}
+.star{
+    color: #EF233C;
 }
 
 @media (max-width:778px) {

@@ -1,29 +1,83 @@
 {
   "registerAccount": [
     {
-      "id": "ebeed038-e94e-4cb1-98c5-a396544cc640",
+      "id": "3b5f99e1-bc3a-463d-a58b-92c7c2f89608",
       "fullName": "Uday Kumar",
-      "dob": "2021-10-09",
+      "dob": "2021-10-02",
       "email": "uday@gmail.com",
       "password": "Uday1234",
       "cpassword": "Uday1234",
       "currentServices": [
         {
-          "mIcon": "file/bank.svg",
-          "dIcon": "file/bank2.png",
-          "rating": "",
-          "header": "Current Account"
-        },
-        {
           "mIcon": "file/payroll.svg",
           "dIcon": "file/payments2.png",
-          "rating": "",
+          "rating": 4,
           "header": "Payroll"
         },
         {
           "mIcon": "file/payment.svg",
           "dIcon": "file/payroll2.png",
-          "rating": "",
+          "rating": 1,
+          "header": "Payments"
+        },
+        {
+          "mIcon": "file/wallet.svg",
+          "dIcon": "file/wallet2.png",
+          "rating": 4,
+          "header": "Wallet"
+        }
+      ],
+      "availableServices": [
+        {
+          "mIcon": "file/time.svg",
+          "dIcon": "file/investment2.png",
+          "rating": 3,
+          "header": "Investments"
+        },
+        {
+          "mIcon": "file/tax.svg",
+          "dIcon": "file/tax2.png",
+          "rating": 2,
+          "header": "Tax Payment"
+        },
+        {
+          "mIcon": "file/money-bag.svg",
+          "dIcon": "file/loan2.png",
+          "rating": 0,
+          "header": "Loan"
+        },
+        {
+          "mIcon": "file/bank.svg",
+          "dIcon": "file/bank2.png",
+          "rating": 4,
+          "header": "Current Account"
+        }
+      ]
+    },
+    {
+      "id": "236817dc-bbda-4932-af21-cf83fde36db4",
+      "fullName": "Ranu  Ranjan",
+      "dob": "2021-10-07",
+      "email": "ranu@gmail.com",
+      "password": "Ranu1234",
+      "cpassword": "Ranu1234",
+      "currentServices": [
+        {
+          "mIcon": "file/bank.svg",
+          "dIcon": "file/bank2.png",
+          "rating": 0,
+          "header": "Current Account"
+        },
+        {
+          "mIcon": "file/payroll.svg",
+          "dIcon": "file/payments2.png",
+          "rating": 4,
+          "header": "Payroll"
+        },
+        {
+          "mIcon": "file/payment.svg",
+          "dIcon": "file/payroll2.png",
+          "rating": 0,
           "header": "Payments"
         }
       ],
@@ -31,25 +85,25 @@
         {
           "mIcon": "file/wallet.svg",
           "dIcon": "file/wallet2.png",
-          "rating": "",
+          "rating": 0,
           "header": "Wallet"
         },
         {
           "mIcon": "file/time.svg",
           "dIcon": "file/investment2.png",
-          "rating": "",
+          "rating": 0,
           "header": "Investments"
         },
         {
           "mIcon": "file/tax.svg",
           "dIcon": "file/tax2.png",
-          "rating": "",
+          "rating": 0,
           "header": "Tax Payment"
         },
         {
           "mIcon": "file/money-bag.svg",
           "dIcon": "file/loan2.png",
-          "rating": "",
+          "rating": 0,
           "header": "Loan"
         }
       ]

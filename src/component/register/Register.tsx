@@ -39,48 +39,47 @@ function Register() {
                 password: password,
                 cpassword: cpassword,
                 currentServices: [{
-                    mIcon: "",
-                    dIcon: "",
+                    mIcon: "file/bank.svg",
+                    dIcon: "file/bank2.png",
                     rating: 0,
                     header: "Current Account"
                 },
                 {
-                    mIcon: "",
-                    dIcon: "",
+                    mIcon: "file/payroll.svg",
+                    dIcon: "file/payments2.png",
                     rating: 0,
                     header: "Payroll"
                 },
                 {
-                    mIcon: "",
-                    dIcon: "",
+                    mIcon: "file/payment.svg",
+                    dIcon: "file/payroll2.png",
                     rating: 0,
                     header: "Payments"
                 }],
                 availableServices: [{
-                    mIcon: "",
-                    dIcon: "",
+                    mIcon: "file/wallet.svg",
+                    dIcon: "file/wallet2.png",
                     rating: 0,
                     header: "Wallet"
                 },
                 {
-                    mIcon: "",
-                    dIcon: "",
+                    mIcon: "file/time.svg",
+                    dIcon: "file/investment2.png",
                     rating: 0,
                     header: "Investments"
                 },
                 {
-                    mIcon: "",
-                    dIcon: "",
+                    mIcon: "file/tax.svg",
+                    dIcon: "file/tax2.png",
                     rating: 0,
                     header: "Tax Payment"
                 }, {
-                    mIcon: "",
-                    dIcon: "",
+                    mIcon: "file/money-bag.svg",
+                    dIcon: "file/loan2.png",
                     rating: 0,
                     header: "Loan"
                 }]
             }
-            console.log(form)
             axios.post('http://localhost:4000/registerAccount', form)
         } else {
             alert("Something went wrong!!")
